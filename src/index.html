@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Componentes electrónicos</title>
     <link rel="stylesheet" href="../css/estilos.css" />
-    <script src="../script/funcionesDOM.js"></script>
+    
   </head>
   <body>
     <nav>
@@ -44,7 +44,7 @@
     <footer>
       <div id="footerIzq">
         <h3>Únete a nuestra newsletter</h3>
-        <form action="./registro.html" method="get">
+        <form action="./registro.html" method="get" onsubmit="mostrarCorreo(event)">
           <label for="email">Correo electrónico</label>
           <input
             type="email"
@@ -65,4 +65,5 @@
       </div>
     </footer>
   </body>
+  <script src="../script/funcionesDOM.js"></script>
 </html>

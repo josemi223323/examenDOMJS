@@ -42,6 +42,10 @@ function selectOpciones() {
     nuevoDiv.appendChild(nuevaImagen);
   }
 }
-
 selectOpciones(); 
 select.addEventListener("change", selectOpciones);
+function mostrarCorreo(evento) {
+    evento.preventDefault();
+    const email = document.getElementById('email').value;
+    alert("tu correo es " + email);
+}
