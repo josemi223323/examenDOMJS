@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/estilos.css" />
     
   </head>
-  <body>
+  <body onload="matrizImagenes = cargarContenido()">
     <nav>
       <ul>
         <li>Inicio</li>
@@ -34,7 +34,7 @@
     </section>
     <section id="ultimaSeccion">
       <h2>Por tipo</h2>
-      <select name="opcionesComp" onchange="selectOpciones()">
+      <select name="opcionesComp" onchange="selectOpciones(matrizImagenes)">
             <option value="0"> Refrigeración </option>
             <option value="1"> Microprocesadores </option>
             <option value="2"> Tarjetas gráficas </option>

@@ -104,3 +104,12 @@ footer{
 input:invalid {
     background-color: yellow;
 }
+.naranja{
+    color: orangered;
+}
+.cyan{
+    color: darkcyan;
+}
+.verde{
+    color: green;
+}
